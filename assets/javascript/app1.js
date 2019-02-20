@@ -2,6 +2,17 @@ var wins = 0;
 var incorrect = 0;
 var results = 0;
 
+var timer = 30;
+var interval = setInterval(function() {
+  document.getElementById("timer").innerHTML = timer;
+  timer--;
+  if (timer === 0) {
+    clearInterval(interval);
+    document.getElementById("timer").innerHTML = "Done";
+    alert("Time is up!");
+  }
+}, 1000);
+
 var questionQuiz = [
   {
     question:
@@ -112,3 +123,5 @@ var questionQuiz = [
     correctAnswer: "a"
   }
 ];
+
+//unclick Jquery

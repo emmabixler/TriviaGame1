@@ -1,9 +1,12 @@
 body {
-  background-image: url("../images/background1\ .jpg");
+  background-image: url("../images/background2\ .jpg");
 }
 
 h1 {
   text-align: center;
+  background-color: white;
+}
+#timer {
   background-color: white;
 }
 
