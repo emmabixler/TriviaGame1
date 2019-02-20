@@ -2,7 +2,7 @@ var wins = 0;
 var incorrect = 0;
 var results = 0;
 
-var timer = 30;
+var timer = 60;
 var interval = setInterval(function() {
   document.getElementById("timer").innerHTML = timer;
   timer--;
